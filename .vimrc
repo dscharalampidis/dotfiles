@@ -1,27 +1,28 @@
-colo ron			    " Enable the ron colorscheme
-syntax on			    " Enable syntax highlighting
-
-set number			    " Show line numbers
-set linebreak			    " Break lines at word (requires Wrap lines)
-set showbreak=+++		    " Wrap-broken line prefix
-set textwidth=100		    " Line wrap (number of cols)
-set showmatch			    " Highlight matching brace
-set noerrorbells visualbell t_vb=   " No audio or visual bell (no beeping or flashing)
- 
-set hlsearch			    " Highlight all search results
-set smartcase			    " Enable smart-case search
-set ignorecase			    " Always case-insensitive
-set incsearch			    " Searches for strings incrementally
- 
-set autoindent			    " Auto-indent new lines
-set cindent			    " Use 'C' style program indenting
-set shiftwidth=4		    " Number of auto-indent spaces
-set smartindent			    " Enable smart-indent
-set smarttab			    " Enable smart-tabs
-set softtabstop=4		    " Number of spaces per Tab
- 
-set ruler			    " Show row and column ruler information
-set relativenumber		    " Enable relative line numbering
- 
-set undolevels=1000		    " Number of undo levels
-set backspace=indent,eol,start	    " Backspace behaviour
+colo ron
+syntax on
+set number
+set linebreak
+set showbreak=+++
+set textwidth=80
+set showmatch
+set noerrorbells visualbell t_vb=
+set hlsearch
+set smartcase
+set ignorecase
+set incsearch
+set autoindent
+set cindent
+set shiftwidth=4
+set smartindent
+set smarttab
+set softtabstop=0
+set noexpandtab
+set copyindent
+set preserveindent
+set tabstop=4
+set ruler
+set relativenumber
+set undolevels=1000
+set backspace=indent,eol,start
+let g:user42 = 'dcharala'
+let g:mail42 = 'dcharala@student.42heilbronn.de'
